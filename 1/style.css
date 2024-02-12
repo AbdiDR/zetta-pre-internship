@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.bio-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+h1 {
+    color: #333;
+}
+
+.highlight-text {
+    color: #00aa00;
+    font-weight: bold;
+}
+
+.big-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bio-description {
+    text-align: left;
+    margin-top: 15px;
+}

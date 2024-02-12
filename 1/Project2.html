@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Preferences</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+        }
+
+        .table-container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff;
+        }
+
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        #hobby-table tr:nth-child(1) {
+            background-color: #00aa00;
+            color: #fff;
+        }
+
+        #movies-table tr:nth-child(2) {
+            background-color: #ff0000;
+            color: #fff;
+        }
+
+        #songs-table tr:nth-child(3) {
+            background-color: #0000ff;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="table-container">
+
+        <h2>Hobby Table</h2>
+        <table id="hobby-table">
+            <tr>
+                <th>Hobby</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Gaming</td>
+                <td>Playing game online</td>
+            </tr>
+            <tr>
+                <td>Exercise</td>
+                <td>Doing some exercise like gym</td>
+            </tr>
+            <tr>
+                <td>Sports</td>
+                <td>Playing football with friends</td>
+            </tr>
+        </table>
+
+        <h2>Favorites Movies Table</h2>
+        <table id="movies-table">
+            <tr>
+                <th>Title</th>
+                <th>Genre</th>
+            </tr>
+            <tr>
+                <td>All of marvels</td>
+                <td>Action</td>
+            </tr>
+            <tr>
+                <td>Kimi no Nawa</td>
+                <td>Drama</td>
+            </tr>
+        </table>
+
+        <h2>Favorites Songs Table</h2>
+        <table id="songs-table">
+            <tr>
+                <th>Title</th>
+                <th>Artist</th>
+            </tr>
+            <tr>
+                <td>That's what i like</td>
+                <td>Bruno Mars</td>
+            </tr>
+            <tr>
+                <td>Sunday best</td>
+                <td>Surface</td>
+            </tr>
+        </table>
+
+    </div>
+
+</body>
+</html>
